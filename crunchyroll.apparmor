@@ -1,0 +1,14 @@
+{
+    "template": "ubuntu-webapp",
+    "policy_groups": [
+        "networking",
+        "webview",
+        "audio",
+        "video",
+        "keep-display-on"
+    ],
+    "read_path": [
+        "@{HOME}/.local/share/morph-browser/WidevineCdm/"
+    ],
+    "policy_version": 2404.2
+}

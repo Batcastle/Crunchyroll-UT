@@ -1,0 +1,16 @@
+{
+    "name": "crunchyroll-webapp.batcastle",
+    "title": "Crunchyroll",
+    "description": "Crunchyroll web app using the system Morph (Qt6) web engine and Widevine.",
+    "framework": "ubuntu-touch-24.04-2.x",
+    "architecture": "all",
+    "version": "1.0.2",
+    "maintainer": "Thomas Castleman <batcastle@draugeros.org>",
+    "icon": "icon.png",
+    "hooks": {
+        "crunchyroll": {
+            "apparmor": "crunchyroll.apparmor",
+            "desktop": "crunchyroll.desktop"
+        }
+    }
+}
