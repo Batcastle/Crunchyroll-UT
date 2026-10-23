@@ -4,9 +4,10 @@
     "description": "Crunchyroll web app using the system Morph (Qt6) web engine and Widevine.",
     "framework": "ubuntu-touch-24.04-2.x",
     "architecture": "all",
-    "version": "1.0.2",
+    "version": "1.0.6",
     "maintainer": "Thomas Castleman <batcastle@draugeros.org>",
     "icon": "icon.png",
+    "clickable_minimum_required": "8.8.0",
     "hooks": {
         "crunchyroll": {
             "apparmor": "crunchyroll.apparmor",
