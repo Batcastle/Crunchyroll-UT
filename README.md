@@ -14,10 +14,10 @@ via Morph Browser > Settings > Plugins > Widevine.
 
 ## Build
     sudo apt install click
-    click build crunchyroll-webapp/
+    click build crunchyroll-ut/
 
 ## Install on device
-    pkcon install-local --allow-untrusted crunchyroll-webapp.batcastle_1.0.1_all.click
+    pkcon install-local --allow-untrusted crunchyroll-ut.batcastle_1.0.1_all.click
 
 ## Notes
 - Bump `version` in manifest.json whenever the .apparmor file changes, or the

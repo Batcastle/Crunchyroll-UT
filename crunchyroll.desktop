@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Crunchyroll
+Name=Crunchyroll-UT
 Comment=Crunchyroll web app (system Morph Qt6 engine, Widevine)
 Exec=webapp-container --fullscreen --store-session-cookies --webappUrlPatterns="https?://crunchyroll.com/*,https?://*.crunchyroll.com/*" --user-agent-string="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" https://www.crunchyroll.com/
 Icon=icon.png

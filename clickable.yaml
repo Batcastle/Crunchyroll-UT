@@ -1,0 +1,7 @@
+clickable_minimum_required: 8.8.0
+builder: pure
+
+env_vars:
+    CLICK_FRAMEWORK: ubuntu-touch-24.04-2.x
+    CLICK_FRAMEWORK_BASE: "24.04"
+    ARCH: all
