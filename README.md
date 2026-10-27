@@ -13,14 +13,35 @@ via Morph Browser > Settings > Plugins > Widevine.
 - `icon.png`               app icon (Crunchyroll logo, not an original asset)
 
 ## Build
-    sudo apt install click
-    click build crunchyroll-ut/
+### On device
+```
+git clone https://github.com/Batcastle/Crunchyroll-UT
+cd Crunchyroll-UT
+click build .
+```
 
-## Install on device
-    pkcon install-local --allow-untrusted crunchyroll-ut.batcastle_1.0.1_all.click
+### On desktop
+```
+git clone https://github.com/Batcastle/Crunchyroll-UT
+cd Crunchyroll-UT
+sudo clickable build
+```
+
+## Install
+### On device
+```
+click install ./crunchyroll-ut.*.click
+```
+
+### From desktop
+Make sure your Ubuntu Touch device is plugged into your computer first, and developer mode is enabled, then run:
+```
+clickable install
+```
 
 ## Notes
 - Bump `version` in manifest.json whenever the .apparmor file changes, or the
   profile will not be regenerated.
 - Remove `--fullscreen` to bring back the status bar, `--enable-back-forward` to
   hide the bottom toolbar, or `--user-agent-string=...` to use the default UA.
+- This app was originally created using Claude AI, and is now human-maintained.
