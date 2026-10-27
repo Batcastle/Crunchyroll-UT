@@ -42,6 +42,6 @@ clickable install
 ## Notes
 - Bump `version` in manifest.json whenever the .apparmor file changes, or the
   profile will not be regenerated.
-- Remove `--fullscreen` to bring back the status bar, `--enable-back-forward` to
-  hide the bottom toolbar, or `--user-agent-string=...` to use the default UA.
+- Remove `--fullscreen` to bring back the status bar, add `--enable-back-forward` to
+  bring back the bottom toolbar, or `--user-agent-string=...` to use the default UA.
 - This app was originally created using Claude AI, and is now human-maintained.
